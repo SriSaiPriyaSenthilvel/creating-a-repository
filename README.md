@@ -33,7 +33,8 @@ createrepo /var/www/html/content/rhel8.0/x86_64/dvd/BaseOS/
 
 mkdir -p /var/www/html/content/rhel8.0/x86_64/dvd/AppStream
 mkdir -p /var/www/html/content/rhel8.0/x86_64/dvd/BaseOS
-
+```
+```
 cp -r /path/to/rhel8.0/x86_64/dvd/AppStream/* /var/www/html/content/rhel8.0/x86_64/dvd/AppStream/
 cp -r /path/to/rhel8.0/x86_64/dvd/BaseOS/* /var/www/html/content/rhel8.0/x86_64/dvd/BaseOS/
 
