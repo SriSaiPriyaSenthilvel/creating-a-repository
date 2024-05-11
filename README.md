@@ -1,9 +1,9 @@
-## EX01 - Creating-a-repository
+# EX01 - Creating-a-repository
 
-# AIM:
+## AIM:
 The aim is to create a repository for Red Hat Enterprise Linux 9.0 (RHEL 9.0) containing the AppStream and BaseOS packages for the x86_64 architecture.
 
-# PROCEDURE:
+## PROCEDURE:
 1.Accessing the Server: Log in to the server where you want to create the repository.
 
 2.Create the repository packages.
@@ -16,7 +16,7 @@ The aim is to create a repository for Red Hat Enterprise Linux 9.0 (RHEL 9.0) co
 
 6.Test the repository by accessing it through a web browser or using ‘yum’ on a client machine configured to use this repository.
 
-# PROGRAM / COMMANDS:
+## PROGRAM / COMMANDS:
 ```
 Developed by:Sri Sai Priya S
 Register Number:212222240103
@@ -40,7 +40,7 @@ cp -r /path/to/rhel8.0/x86_64/dvd/BaseOS/* /var/www/html/content/rhel8.0/x86_64/
 createrepo /var/www/html/content/rhel8.0/x86_64/dvd/AppStream/
 createrepo /var/www/html/content/rhel8.0/x86_64/dvd/BaseOS/
 ```
-# OUTPUT:
+## OUTPUT:
 ![image](https://github.com/SriSaiPriyaSenthilvel/creating-a-repository/assets/119475702/87d9b957-6302-4b98-b687-0c5e8968bb86)
 
 # RESULT:
